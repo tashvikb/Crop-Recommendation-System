@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #181818 !important;
+}
+
+.container {
+    border: 0.3px solid black;
+    border-width: 0.1cm;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 3% auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.container:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card {
+    margin: 20px auto;
+    color: #fff;
+    background: linear-gradient(to top, rgb(79, 233, 41), #089000);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.navbar {
+    background: linear-gradient(to right) !important;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar:hover {
+    background: linear-gradient(to right) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #61dafb !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav a {
+    margin-right: 10px;
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    color: #61dafb !important;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color:white;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+form input:focus {
+    border-color: #089000 !important;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #089000 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    border: none !important; 
+    border-radius: 5px;
+    outline: none !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #068100 !important;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
